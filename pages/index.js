@@ -92,9 +92,11 @@ const IntroContent = styled.button`
   align-items: flex-start;
   height: 100vh;
   margin: 90px 0 90px 80px;
-
+  width: 100%;
   border-width: 0px;
   background-color: transparent;
+`;
+const ClickText = styled.div`
 `;
 export default function Home() {
   const router = useRouter();
@@ -111,6 +113,7 @@ export default function Home() {
             <br />
             Frontend
           </IntroText>
+          <ClickText>(Click on page to go to time list)</ClickText>
         </IntroContent>
       </Layout>
     </>
