@@ -35,7 +35,6 @@ const StyledRow = styled(RowSpaceBetween)`
 `;
 
 function SalonContent({ salonInfo }) {
-  console.log({ salonInfo });
   const {
     location: { street, zip, region },
     openingHours: { closing },
