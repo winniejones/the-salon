@@ -1,0 +1,5 @@
+{
+  "typescript.reportStyleChecksAsWarnings": false,
+  "js/ts.implicitProjectConfig.strictNullChecks": false,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": false
+}
